@@ -1,0 +1,452 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, sans-serif; }
+
+.row {
+  margin: 0; }
+
+.col-lg-12, .col-lg-6 {
+  padding: 0; }
+
+.nav {
+  background: transparent;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  padding-right: 30px;
+  z-index: 100; }
+  .nav li {
+    position: relative;
+    padding: 30px 15px; }
+  .nav a {
+    color: white;
+    text-decoration: none; }
+    .nav a:hover {
+      color: #00BCD4; }
+
+/*********************BIG HEADER*********************/
+.headerpic {
+  background-image: url("img/headingpic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.headerpiccontent {
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center;
+  padding: 110px 0 210px 0; }
+  .headerpiccontent .profile {
+    border: solid 3px white;
+    width: 300px;
+    padding: 45px 0 45px 0;
+    margin-top: 100px;
+    margin-left: 300px; }
+    .headerpiccontent .profile img {
+      border-radius: 50%;
+      width: 50%;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto; }
+    .headerpiccontent .profile h4 {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding-top: 15px; }
+    .headerpiccontent .profile h5 {
+      color: #F9a300;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      padding-top: 10px;
+      font-size: 14px;
+      font-weight: bold; }
+  .headerpiccontent .aspiring {
+    width: 600px;
+    padding: 130px 0px 45px 0;
+    height: auto;
+    margin-right: 100px; }
+    .headerpiccontent .aspiring h3 {
+      color: white; }
+    .headerpiccontent .aspiring p {
+      color: #f2f2f2; }
+    .headerpiccontent .aspiring i {
+      font-size: 18px; }
+    .headerpiccontent .aspiring .hrafteraspiring {
+      border: solid 2px #00BCD4;
+      width: 400px;
+      float: left;
+      position: relative;
+      margin: 0; }
+  .headerpiccontent .anchordown img {
+    border: solid 2px white;
+    padding: 5px 4px;
+    font-weight: bold;
+    width: 38px;
+    height: 50px;
+    display: block;
+    position: relative;
+    top: 200px;
+    right: 500px;
+    animation: updown 500ms infinite alternate; }
+
+@keyframes updown {
+  0% {
+    transform: translate(0px, 15px); }
+  100% {
+    transform: translate(0, 0px); } }
+
+/*****************ABOUT ME SECTION*****************/
+.aboutmesection {
+  width: 100%;
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center; }
+
+.aboutmecontent {
+  /*align-items: center;*/
+  justify-content: center;
+  padding: 70px 0 80px 0;
+  width: 70%; }
+  .aboutmecontent h2, .aboutmecontent .skillsection h4, .skillsection .aboutmecontent h4 {
+    text-align: center;
+    color: #00BCD4;
+    font-weight: 800; }
+  .aboutmecontent #gradpic img {
+    padding: 80px 0 10px 0; }
+  .aboutmecontent #twobachelor h5, .aboutmecontent #asaperson h5 {
+    padding: 60px 0 0 0;
+    color: #F9a300; }
+  .aboutmecontent #twobachelor p, .aboutmecontent #asaperson p {
+    padding: 10px 0 0 0; }
+  .aboutmecontent #twobachelor h6, .aboutmecontent #asaperson h6 {
+    color: #00BCD4;
+    border: solid 1px #F9a300;
+    padding: 25px 10px;
+    font-weight: 500;
+    text-align: center; }
+
+#swimpic img {
+  margin: 70px 0 0 190px; }
+
+/**************SKILL SECTION***************/
+.skillsection {
+  background-color: #333333;
+  padding: 20px 0 60px 0;
+  position: relative; }
+  .skillsection h2, .skillsection h4 {
+    text-align: center;
+    color: #00BCD4;
+    font-weight: 800;
+    padding-top: 50px; }
+  .skillsection h4 {
+    padding-top: 60px;
+    color: #F9a300;
+    text-align: center; }
+  .skillsection p {
+    color: white; }
+  .skillsection .skillslistcontainer p {
+    display: inline-block;
+    padding-right: 10px;
+    text-align: left; }
+  .skillsection .skillslistcontainer .barcontainer {
+    width: 320px;
+    background-color: #ddd;
+    margin-right: 0;
+    display: inline-block; }
+  .skillsection .skillslistcontainer .skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 30px;
+    color: white; }
+  .skillsection .skillslistcontainer .html, .skillsection .skillslistcontainer .css, .skillsection .skillslistcontainer .sass, .skillsection .skillslistcontainer .bootstrap, .skillsection .skillslistcontainer .javascript, .skillsection .skillslistcontainer .jquery, .skillsection .skillslistcontainer .angular {
+    width: 95%;
+    background-color: #00BCD4; }
+  .skillsection .skillslistcontainer .htmlp {
+    margin-right: 53px; }
+  .skillsection .skillslistcontainer .css {
+    width: 90%; }
+  .skillsection .skillslistcontainer .cssp {
+    margin-right: 64px; }
+  .skillsection .skillslistcontainer .sass {
+    width: 88%; }
+  .skillsection .skillslistcontainer .sassp {
+    margin-right: 54px; }
+  .skillsection .skillslistcontainer .bootstrap {
+    width: 75%; }
+  .skillsection .skillslistcontainer .javascript {
+    width: 50%; }
+  .skillsection .skillslistcontainer .jquery {
+    width: 60%; }
+  .skillsection .skillslistcontainer .jqueryp {
+    margin-right: 37px; }
+  .skillsection .skillslistcontainer .angular {
+    width: 20%; }
+  .skillsection .skillslistcontainer .angularp {
+    margin-right: 22px; }
+  .skillsection .skillslistcontainer .java, .skillsection .skillslistcontainer .vb, .skillsection .skillslistcontainer .mongodb, .skillsection .skillslistcontainer .mysql, .skillsection .skillslistcontainer .mssql, .skillsection .skillslistcontainer .postgresql, .skillsection .skillslistcontainer .ibmdb2 {
+    width: 20%;
+    background-color: #00BCD4; }
+  .skillsection .skillslistcontainer .javap {
+    margin-right: 66px; }
+  .skillsection .skillslistcontainer .vb {
+    width: 20%; }
+  .skillsection .skillslistcontainer .vbp {
+    margin-right: 84px; }
+  .skillsection .skillslistcontainer .mongodb {
+    width: 60%; }
+  .skillsection .skillslistcontainer .mongodbp {
+    margin-right: 20px; }
+  .skillsection .skillslistcontainer .mysql {
+    width: 55%; }
+  .skillsection .skillslistcontainer .mysqlp {
+    margin-right: 52px; }
+  .skillsection .skillslistcontainer .mssql {
+    width: 55%; }
+  .skillsection .skillslistcontainer .mssqlp {
+    margin-right: 51px; }
+  .skillsection .skillslistcontainer .postgresql {
+    width: 55%; }
+  .skillsection .skillslistcontainer .ibmdb2 {
+    width: 58%; }
+  .skillsection .skillslistcontainer .ibmdb2p {
+    margin-right: 39px; }
+  .skillsection .skillslistcontainer .drupal, .skillsection .skillslistcontainer .wordpress, .skillsection .skillslistcontainer .umbraco, .skillsection .skillslistcontainer .git, .skillsection .skillslistcontainer .tfs {
+    width: 70%;
+    background-color: #00BCD4; }
+  .skillsection .skillslistcontainer .drupalp {
+    margin-right: 38px; }
+  .skillsection .skillslistcontainer .wordpress {
+    width: 60%; }
+  .skillsection .skillslistcontainer .umbraco {
+    width: 70%; }
+  .skillsection .skillslistcontainer .umbracop {
+    margin-right: 23px; }
+  .skillsection .skillslistcontainer .git {
+    width: 40%; }
+  .skillsection .skillslistcontainer .gitp {
+    margin-right: 76px; }
+  .skillsection .skillslistcontainer .tfs {
+    width: 40%; }
+  .skillsection .skillslistcontainer .tfsp {
+    margin-right: 76px; }
+
+/*******************PROJECT SECTION*****************/
+.projectsection {
+  text-align: center;
+  width: 80%;
+  padding: 70px 0  0 0;
+  margin: 0px auto; }
+  .projectsection h2, .projectsection .skillsection h4, .skillsection .projectsection h4 {
+    padding: 0 0 50px 0;
+    color: #00BCD4;
+    font-weight: 800; }
+  .projectsection .projectthumbnail img {
+    width: 380px;
+    height: 300px;
+    object-fit: cover;
+    border: solid 1px #e5e5e5;
+    padding: 5px; }
+  .projectsection .projectthumbnail:hover {
+    opacity: 0.8; }
+    .projectsection .projectthumbnail:hover .overlay {
+      opacity: 1; }
+
+.overlay {
+  position: relative;
+  bottom: 155px;
+  opacity: 0; }
+  .overlay button {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #F9a300;
+    padding: 12px;
+    opacity: 1;
+    border: none; }
+  .overlay:hover {
+    opacity: 1; }
+    .overlay:hover button {
+      background-color: #00BCD4; }
+
+.projectcaption {
+  margin: 0 0 80px 0; }
+  .projectcaption p {
+    color: #AC4B00; }
+
+#modallabel {
+  color: #00BCD4; }
+
+.modal-body img {
+  width: 400px;
+  height: 300px;
+  border: solid 2px lightgrey; }
+
+/******************CONTACT SECTION********************/
+.contactsection {
+  position: relative;
+  background-color: #333333;
+  width: 100%;
+  /* Firefox */
+  display: -moz-box;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  /* Safari and Chrome */
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  /* W3C */
+  display: box;
+  box-pack: center;
+  box-align: center; }
+
+.contactseccontent {
+  width: 50%;
+  /*align-items: center;
+    justify-content: center;*/
+  text-align: center;
+  padding: 40px 0 50px 0; }
+  .contactseccontent h2, .contactseccontent .skillsection h4, .skillsection .contactseccontent h4 {
+    color: #00BCD4; }
+  .contactseccontent p {
+    color: white; }
+  .contactseccontent img {
+    width: 80px;
+    height: 80px; }
+
+/****************FOOTER***********************/
+footer {
+  background-color: #191919;
+  color: white;
+  text-align: center;
+  padding: 30px 0 30px 0; }
+  footer p {
+    margin-bottom: 0; }
+
+/************SMALLER SCREENS*************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav {
+    padding-right: 0; }
+    .nav li {
+      padding: 30px 10px; }
+  .headerpiccontent .aspiring {
+    display: none; }
+  .headerpiccontent .profile {
+    margin-left: 0; }
+  .headerpiccontent .anchordown img {
+    display: none; }
+  #swimpic img {
+    margin: 40px 0 0 0;
+    width: 297px; }
+  .projectsection {
+    width: 100%; }
+    .projectsection .projectthumbnail img {
+      width: 350px; } }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .headerpiccontent {
+    text-align: center; }
+    .headerpiccontent .aspiring {
+      width: 550px;
+      margin-right: 0;
+      padding: 100px 0px 40px 0;
+      text-align: center;
+      display: inline-block;
+      position: relative;
+      top: 300px; }
+      .headerpiccontent .aspiring h3 {
+        font-size: 25px; }
+      .headerpiccontent .aspiring p {
+        font-size: 14px; }
+      .headerpiccontent .aspiring .hrafteraspiring {
+        left: 92px;
+        width: 355px; }
+    .headerpiccontent .profile {
+      margin-left: 0;
+      display: inline-block;
+      position: relative;
+      bottom: 530px;
+      padding: 25px 0 45px 0; }
+    .headerpiccontent .anchordown img {
+      top: 480px;
+      right: 400px; }
+  .aboutmesection {
+    text-align: center; }
+    .aboutmesection #swimpic img {
+      margin: 70px 0 0 0; }
+  .skillslistcontainer {
+    text-align: center; } }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .headerpiccontent .aspiring {
+    width: 480px;
+    text-align: left;
+    position: relative;
+    top: 0; }
+    .headerpiccontent .aspiring h3 {
+      font-size: 25px; }
+    .headerpiccontent .aspiring p {
+      font-size: 14px;
+      text-align: left; }
+    .headerpiccontent .aspiring .hrafteraspiring {
+      left: 0; }
+  .headerpiccontent .profile {
+    margin-left: 140px;
+    position: relative;
+    bottom: 0;
+    padding: 25px 0 45px 0; }
+  .headerpiccontent .anchordown img {
+    top: 280px;
+    right: 410px; }
+  .aboutmesection {
+    text-align: center; }
+    .aboutmesection .aboutmecontent {
+      width: 90%; }
+  .projectsection {
+    width: 100%; } }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .headerpiccontent .aspiring {
+    margin-right: 50px; }
+    .headerpiccontent .aspiring .hrafteraspiring {
+      width: 350px; }
+  .headerpiccontent .profile {
+    margin-left: 230px; }
+  .headerpiccontent .anchordown img {
+    top: 280px;
+    right: 520px; }
+  .aboutmesection .aboutmecontent {
+    width: 80%; }
+    .aboutmesection .aboutmecontent #gradpic img {
+      margin-right: 120px; }
+    .aboutmesection .aboutmecontent #swimpic img {
+      margin-left: 80px; }
+  .projectsection {
+    width: 80%; } }
